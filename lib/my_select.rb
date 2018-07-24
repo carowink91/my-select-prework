@@ -6,7 +6,7 @@ def my_select(array)
     if yield(array[i]) == true
       newArray << yield(array[i])
       i += 1
-    else
+    elsif yield(array[i]) == false
       puts "No block given!"
       i += 1
     end
