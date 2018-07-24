@@ -11,7 +11,7 @@ def my_select(array)
   else
     puts "No block given!"
   end
-  
+
 
   newArray
 end
