@@ -8,6 +8,7 @@ def my_select(array)
       i += 1
     else
       puts "No block given!"
+      i += 1
     end
   end
   newArray
