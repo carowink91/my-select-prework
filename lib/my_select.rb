@@ -1,7 +1,7 @@
 def my_select(array)
   newArray = []
 
-    i = 0
+  i = 0
   while i <array.length
     if yield(array[i]) == true
       newArray << yield(array[i])
